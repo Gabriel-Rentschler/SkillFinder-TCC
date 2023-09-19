@@ -3,7 +3,7 @@ import { NavigationMixin } from 'lightning/navigation'; // Certifique-se de impo
 import Everymindassets from '@salesforce/resourceUrl/Everymindassets';
 import Everymindassets2 from '@salesforce/resourceUrl/Everymindassets2';
 
-export default class HomeSF extends NavigationMixin(LightningElement) {
+export default class Skillfinder extends NavigationMixin(LightningElement) {
 
    
 }
