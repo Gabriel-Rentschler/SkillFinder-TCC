@@ -12,20 +12,36 @@ export default class HomeSF extends NavigationMixin(LightningElement) {
     icon6 = `${FinderAs}/EYassets/icon6.png`;
     icon7 = `${FinderAs}/EYassets/icon7.png`;
     icon8 = `${FinderAs}/EYassets/icon8.png`;
-
-    handleLogin() {
-       
-                     // Crie a URL da página de filtro-tela
-                     const url = '/eyprojeto/filtro-tela'; // Substitua pela URL correta
-    
-                     // Navegue para a nova URL
-                     this[NavigationMixin.Navigate]({
-                         type: 'standard__webPage',
-                         attributes: {
-                             url: url
-                         }
-                     });
-        }
-      }
+    home() {
+        const url = '/skillfinder'; 
+              
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: url
+            }
+        });
+    }
+    aboutus() {           
+        const url = '/skillfinder/aboutus'; 
+              
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: url
+            }
+        });
+    }
+    login() {           
+        const url = '/skillfinder/loginsf'; 
+              
+        this[NavigationMixin.Navigate]({
+            type: 'standard__webPage',
+            attributes: {
+                url: url
+            }
+        });
+    }
+}
     
     

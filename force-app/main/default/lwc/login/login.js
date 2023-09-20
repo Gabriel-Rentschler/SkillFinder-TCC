@@ -26,7 +26,7 @@ export default class Login extends NavigationMixin(LightningElement) {
         this.showSuccessMessage = false;
 
                  // Crie a URL da página de filtro-tela
-                 const url = '/eyprojeto/filtro-tela'; // Substitua pela URL correta
+                 const url = '/skillfinder/filtrosf'; // Substitua pela URL correta
 
                  // Navegue para a nova URL
                  this[NavigationMixin.Navigate]({
